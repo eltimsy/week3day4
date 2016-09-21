@@ -1,3 +1,4 @@
-for (var i = 0; i < 3; i++) {
-  setTimeout(function() { return (i); }, console.log(1000 + i));
+'use strict';
+for (let i = 0; i < 3; i++) {
+    setTimeout(() => {console.log(i); }, 1000 * i);
 }
